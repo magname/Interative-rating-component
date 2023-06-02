@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Overpass , sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+    max-width: 25rem;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 15px;
+    min-height: 26rem;
+    margin: 3rem;
+}
+.Star{
+    margin : 2rem 1.5rem 1rem 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 3rem;
+}
+img{
+    padding : 0.8rem;
+}
+.question{
+    padding: 1rem 0 0.7rem 1.5rem;
+    color: hsl(0, 0%, 100%);
+}
+.question-body{
+    padding: 0 1.8rem 1rem 1.5rem;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1.8rem 1rem 1.5rem;
+    font-weight: 700;
+    color: hsl(216, 12%, 54%);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color:white;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+}
+.buttons:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.buttons:focus{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.btn{
+    color: white;
+    margin: 0 1.8rem 2rem 1.5rem;
+    padding: 0.6rem;
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.2s;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: orange;
+}
+/* Styling Second Container */
+.image-2{
+    display: block;
+    margin: 2rem auto 0.5rem;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.hidden{
+    display: none;
+}
+.outof{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+    padding: 0.3rem 1.2rem;
+}
+.Thank-you{
+    color: white;
+    margin : 2rem auto 1rem;
+}
+.Thankyou-body{
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin: 0.3rem;
+    padding: 0 1rem 2rem 1rem;
+    line-height: 1.5;
+}   
