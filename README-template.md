@@ -29,7 +29,7 @@ Users should be able to:
 ![image](https://github.com/magname/Interative-rating-component/assets/60057043/f1483648-a6b6-42b5-b4a8-ea20fc06bd52)
 
 - Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://magname.github.io/Interative-rating-component/)
+- Live Site URL: [https://magname.github.io/Interative-rating-component/](https://magname.github.io/Interative-rating-component/)
 
 ## My process
 
